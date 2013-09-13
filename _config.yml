@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://marcamillion.github.io/5KMVP/
+title: MVPs for just $5k. 
+subtitle: Get a true (M)inimum (V)iable (P)roduct - MVP - for just $5k.
+author: Marc Gayle
 simple_search: http://google.com/search
-description:
+description: Do you want a Minimum Viable Product built but would rather a fixed budget? We give you just that. A flat rate for your minimum viable product.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,20 +16,20 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /blog/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: newprojects@5KMVP.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /blog
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/blog
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -50,7 +50,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, asides/github.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: marcamillion
+github_repo_count: 4
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: marcgayle
 twitter_tweet_button: true
 
 # Google +1
@@ -90,11 +90,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: marcgayle
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: 64355977
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
