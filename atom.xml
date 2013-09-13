@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[MVPs for just $5k.]]></title>
-  <link href="http://marcamillion.github.io/5KMVP//atom.xml" rel="self"/>
-  <link href="http://marcamillion.github.io/5KMVP//"/>
-  <updated>2013-09-13T15:45:03-05:00</updated>
-  <id>http://marcamillion.github.io/5KMVP//</id>
+  <link href="http://marcamillion.github.io/5KMVP/atom.xml" rel="self"/>
+  <link href="http://marcamillion.github.io/5KMVP/"/>
+  <updated>2013-09-13T16:09:29-05:00</updated>
+  <id>http://marcamillion.github.io/5KMVP/</id>
   <author>
     <name><![CDATA[Marc Gayle]]></name>
     <email><![CDATA[newprojects@5KMVP.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis of Market Demand for Web Programming Languages]]></title>
-    <link href="http://marcamillion.github.io/5KMVP//blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages/"/>
+    <link href="http://marcamillion.github.io/5KMVP/blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages/"/>
     <updated>2013-01-01T00:30:00-05:00</updated>
-    <id>http://marcamillion.github.io/5KMVP//blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages</id>
+    <id>http://marcamillion.github.io/5KMVP/blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages</id>
     <content type="html"><![CDATA[<p>  A few months ago, I got the idea that one way to get leads for remote freelance gigs was to scour Craigslist. So, after doing the manual work of &lsquo;crawling&rsquo; through at least 100 job postings by hand, I wrote a Ruby script to do the heavy lifting and filtering for me.</p>
 
 <p>  Once I started looking through the data, some interesting things started jumping out at me. Even though I don&rsquo;t actually live in the Valley (I live in Jamaica), I consume a lot of the news, blog posts and articles that come from the Valley. Suffice it to say, I am affected by the &lsquo;Valley echo-chamber&rsquo;. One side effect of that is an obsession with Ruby and Rails as my development stack&hellip;and a general expectation that the rest of the world has woken up to the beauty and elegance that is Ruby &amp; Rails.</p>
@@ -99,21 +99,21 @@
 </ul>
 
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Server-Side-Language-Demand-Distribution-Graph.PNG" title="Server Side Language Demand Distribution Graph" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Server-Side-Language-Demand-Distribution-Graph.PNG" title="Server Side Language Demand Distribution Graph" ></p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Server-Side-Language-Demand-Distribution-Table.PNG" title="Server Side Language Demand Distribution Table" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Server-Side-Language-Demand-Distribution-Table.PNG" title="Server Side Language Demand Distribution Table" ></p>
 
 <p>On the server side, you can see that PHP wins by a long shot &ndash; with an almost <a href="http://www.youtube.com/watch?v=2O7K-8G2nwU">Bolt-like</a> performance, blowing everybody else out of the water. In fact, Ruby comes in at a paltry 5th place, Java coming in at 2nd and Dot-Net and C# coming in 3rd and 4th respectively.</p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Client-Side-Language-1-Demand-Distribution-Graph.PNG" title="Client Side Language 1 Demand Distribution Graph" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Client-Side-Language-1-Demand-Distribution-Graph.PNG" title="Client Side Language 1 Demand Distribution Graph" ></p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Client-Side-Language-1-Demand-Distribution-Table.PNG" title="Client Side Language 1 Demand Distribution Table" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Client-Side-Language-1-Demand-Distribution-Table.PNG" title="Client Side Language 1 Demand Distribution Table" ></p>
 
 <p>The most surprising result from the above is that Flash is still in demand &ndash; with all the &ldquo;Flash is dead&rdquo; rhetoric flying around the tech presses and blogs. Almost as much in demand as Javascript! Who woulda thunk?!?</p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Client-Side-Language-2-Demand-Distribution-Graph.PNG" title="Client Side Language 2 Demand Distribution Graph" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Client-Side-Language-2-Demand-Distribution-Graph.PNG" title="Client Side Language 2 Demand Distribution Graph" ></p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Client-Side-Language-2-Demand-Distribution-Table.PNG" title="Client Side Language 2 Demand Distribution Table" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Client-Side-Language-2-Demand-Distribution-Table.PNG" title="Client Side Language 2 Demand Distribution Table" ></p>
 
 <p>As for the Javascript frameworks, there is a silent battle going on with the multitudes of Javascript frameworks in existence and being released regularly. Here is where the unscientific-ness and impreciseness of this little exercise rears it&rsquo;s head again. Upon first glance of the results, the script says that Ember had an <a href="https://github.com/marcamillion/craigslist-ruby-crawler/blob/master/output/client-side/ember-gigs-Sep-28-2012.html#L2">output of 14 gigs</a>. However, because the keyword being searched for is &lsquo;ember&rsquo;, what happens is that Ruby finds any string with a substring of &lsquo;ember&rsquo;. So it had <a href="https://github.com/marcamillion/craigslist-ruby-crawler/blob/master/output/client-side/ember-gigs-Sep-28-2012.html">14 links</a> with &lsquo;Member&rsquo; and &lsquo;Membership&rsquo; in the link title. Not one with Ember.js or the Ember we were looking for. So after I manually reviewed the links, 0 results were returned. So the only two client-side MVC frameworks that the script found that is in-demand is Backbone and Node. Both, just barely.</p>
 
@@ -123,9 +123,9 @@
 
 <p>Here is all the data altogether.</p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Language-Demand-Distribution-Graph.PNG" title="Language Demand Distribution Graph" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Language-Demand-Distribution-Graph.PNG" title="Language Demand Distribution Graph" ></p>
 
-<p><img src="http://marcamillion.github.io/5KMVP//images/posts/2013/01/TC-Language-Demand-Distribution-Table.PNG" title="Language Demand Distribution Table" ></p>
+<p><img src="http://marcamillion.github.io/5KMVP/images/posts/2013/01/TC-Language-Demand-Distribution-Table.PNG" title="Language Demand Distribution Table" ></p>
 
 <h3>Conclusion</h3>
 
