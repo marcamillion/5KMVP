@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://marcamillion.github.io/5KMVP//sitemap.xml 
