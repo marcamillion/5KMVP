@@ -1,1 +1,1 @@
-rvm use gemset octopress
+rvm use 1.9.3@octopress

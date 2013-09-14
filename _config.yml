@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://marcamillion.github.io/5KMVP/
+url: http://marcamillion.github.io/5KMVP/blog
 title: MVPs for just $5k. 
 subtitle: Get a true (M)inimum (V)iable (P)roduct - MVP - for just $5k.
 author: Marc Gayle
@@ -39,7 +39,7 @@ rdiscount:
     - autolink
     - footnotes
     - smart
-pygments: false # default python pygments have been replaced by pygments.rb
+pygments: true # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
