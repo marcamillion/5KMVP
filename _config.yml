@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://marcamillion.github.io/5KMVP/blog
+url: http://marcamillion.github.io/5KMVP
 title: MVPs for just $5k. 
 subtitle: Get a true (M)inimum (V)iable (P)roduct - MVP - for just $5k.
 author: Marc Gayle
@@ -16,7 +16,7 @@ description: Do you want a Minimum Viable Product built but would rather a fixed
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /blog/atom.xml
+subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: newprojects@5KMVP.com
@@ -26,10 +26,10 @@ email: newprojects@5KMVP.com
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /blog
+root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/blog
+destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
