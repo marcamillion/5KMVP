@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: value | MVPs for just $5k.]]></title>
+  <link href="http://5kmvp.com/blog/categories/value/atom.xml" rel="self"/>
+  <link href="http://5kmvp.com/"/>
+  <updated>2013-09-18T05:11:29-05:00</updated>
+  <id>http://5kmvp.com/</id>
+  <author>
+    <name><![CDATA[Marc Gayle]]></name>
+    <email><![CDATA[newprojects@5KMVP.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Redefining MVP to Minimum Valuable Product]]></title>
+    <link href="http://5kmvp.com/blog/2013/09/17/redefining-mvp-minimum-valuable-product/"/>
+    <updated>2013-09-17T03:12:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2013/09/17/redefining-mvp-minimum-valuable-product</id>
+    <content type="html"><![CDATA[<p>Given our experience working with many clients building MVPs, I have made a few observations about using the term &ndash; that lead me to think that a re-definition may be in order.</p>
+
+<h3>1st Observation: The term is too geeky</h3>
+
+<p>Due to the name of <a href="http://5kmvp.com">my business</a>, I can&rsquo;t run away from explaining what an MVP is. Anyone that I have to explain this to, I have to usually explain how a web product is different than a web site. Then I have to explain what a &lsquo;viable product&rsquo; is. Then I add the minimum portion of it &ndash; to emphasize the ability to get to market quickly to test the hypothesis re: the viability of the product. Viability sounds overly complicated and takes &lsquo;non-tech-startup&rsquo; people a significant amount of time to conceptually wrap their brains around determining whether a product is &lsquo;viable&rsquo;.</p>
+
+<p>I think that is largely because the &lsquo;viability&rsquo; in the MVP sense captures 2 concepts in 1. In order for a product to be viable, it must be valuable to someone first. Then some reasonable portion of the market must be willing to pay for it. If a product is valuable to literally 1 person, then for all intents and purposes it doesn&rsquo;t matter how much they are willing to pay for it &ndash; even $1B &ndash; it almost makes no rational sense to pursue it. A market size of 1 is basically no market &ndash; even if that 1 is the US Gov&rsquo;t (from my perspective anyway). So you have to grok the valuable part and the market size part &ndash; in 1 word.</p>
+
+<h3>2nd Observation: Seeking value is under emphasised</h3>
+
+<p>Due to the fact that &lsquo;Value&rsquo; is not in the name Minimum Viable Product, it is quite often overlooked by entrepreneurs. They know that to validate a hypothesis, they have to find some potential clients willing to pay for it. However, because they focus on just the exchange of money or even the &lsquo;minimum&rsquo; allure of creating a handful of features, they don&rsquo;t quite understand/hone-in on the &lsquo;value concept&rsquo; of what they are building. In other words, when you ask them&hellip;how does what you are creating add value for your potential customers &ndash; they can&rsquo;t say explicitly articulate what their value is.</p>
+
+<p>The average web developer doesn&rsquo;t fully understand (and can&rsquo;t quantify/articulate) their value.</p>
+
+<blockquote><p>For us, the value we provide is peace-of-mind by reducing your risk. We guarantee you a working MVP for a flat fee of $5K.</p></blockquote>
+
+<p>Determining true value is a particularly tricky exercise, because it is hard to articulate. Someone doesn&rsquo;t buy a fan because it has 3, 4, or 5 blades&hellip;.they buy a fan because it can keep them cool, at a significantly lower cost than an A/C and with much less stress/work than fanning themselves. If a fan has 1 million blades, but doesn&rsquo;t keep the subject cool&hellip;it won&rsquo;t last in the marketplace &ndash; unless there is some other magic that provides some imputed value that the creator didn&rsquo;t anticipate (e.g. perhaps the cost of the fan is less than the value of some of the components &ndash; <a href="http://www.quora.com/Business/Whats-the-shrewdest-smartest-maneuver-youve-ever-seen-in-business/answer/David-Fry?srid=FZe&share=1">hey&hellip;it has happened</a>).</p>
+
+<h3>3rd Observation: Without capturing value, the product will never be viable</h3>
+
+<p>If a product doesn&rsquo;t provide some value, then people will not use it over the long-term. People, especially early adopters, will try your product when they just hear about it&hellip;but if it doesn&rsquo;t provide some value to them&hellip;they will not use it consistently over time.</p>
+
+<p>The most important thing about surviving is not just providing value, but capturing some amount of the value you create. That&rsquo;s the only way to be viable over the long-term. Once you know how much value you create, then you can figure out a way to capture that value.</p>
+
+<h3>4th Observation: You need to figure out your &lsquo;Value Delta&rsquo;</h3>
+
+<blockquote><p>Value Delta = The Amount of Value You Create &ndash; The Amount of  Value You Charge</p>
+
+<p>Value Surplus = A positive Value Delta</p>
+
+<p>Value Deficit = A negative Value Delta</p></blockquote>
+
+<p>If you create a product that on average makes your best customer segment $1M+/year each, you are doing them a MAJOR disservice by charging just $120/year. The reason is that your incentives are misaligned. In order for you to be sustainable you have to focus on getting many customers and building an organization around trying to optimize for acquiring multiple customers &ndash; whereas those customers that receive $1M+/year of value will likely want you to focus more on improving the product and providing support. If they are just paying you $120/year, you can&rsquo;t do that right off the bat &ndash; therefore you begin to erode your Value Delta.</p>
+
+<p>In this case, you and they, would be much better off if you charged them $120K/year. That would allow you to focus on improving the product and adding more value to your existing customers than chasing down every new customer.</p>
+
+<p>In a theoretical world, a rational customer should want to pay up to $999K/year for your product, because they would still be net-ahead. Now&hellip;I wouldn&rsquo;t advise that, obviously, because it gets harder to justify a small value-delta. The larger the value-delta, the more compelling your product offering&hellip;up to a point. So the trick is to balance that value-delta such that the value-surplus is compelling enough for the customer to want to use your product &ndash; and that you can build a sustainable business supporting that value-surplus around.</p>
+
+<p>You want to stay away from Value Deficit territory &ndash; assuming you want to build something for the long-run.</p>
+
+<hr />
+
+<p>So, I think the industry needs to re-focus on the value creation portion of an MVP &ndash; because that is the only thing that will get the product to product-market-fit. Re-defining the default term is just the first step. You would be surprised how difficult it is to get at the value being created by a product. It&rsquo;s not as straight forward as it sounds.</p>
+
+<p>I will be writing a few more posts on Value over the next few days, so stay tuned.</p>
+]]></content>
+  </entry>
+  
+</feed>
