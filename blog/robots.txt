@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://5kmvp.com/sitemap.xml 
