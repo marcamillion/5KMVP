@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: programming | MVPs for just $5k.]]></title>
-  <link href="http://5kmvp.com//blog/categories/programming/atom.xml" rel="self"/>
-  <link href="http://5kmvp.com//"/>
-  <updated>2013-09-18T05:30:27-05:00</updated>
-  <id>http://5kmvp.com//</id>
+  <link href="http://5kmvp.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://5kmvp.com/"/>
+  <updated>2013-09-18T05:34:18-05:00</updated>
+  <id>http://5kmvp.com/</id>
   <author>
     <name><![CDATA[Marc Gayle]]></name>
     <email><![CDATA[newprojects@5KMVP.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis of Market Demand for Web Programming Languages]]></title>
-    <link href="http://5kmvp.com//blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages/"/>
+    <link href="http://5kmvp.com/blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages/"/>
     <updated>2013-01-01T00:30:00-05:00</updated>
-    <id>http://5kmvp.com//blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages</id>
+    <id>http://5kmvp.com/blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages</id>
     <content type="html"><![CDATA[<p>  A few months ago, I got the idea that one way to get leads for remote freelance gigs was to scour Craigslist. So, after doing the manual work of &lsquo;crawling&rsquo; through at least 100 job postings by hand, I wrote a Ruby script to do the heavy lifting and filtering for me.</p>
 
 <p>  Once I started looking through the data, some interesting things started jumping out at me. Even though I don&rsquo;t actually live in the Valley (I live in Jamaica), I consume a lot of the news, blog posts and articles that come from the Valley. Suffice it to say, I am affected by the &lsquo;Valley echo-chamber&rsquo;. One side effect of that is an obsession with Ruby and Rails as my development stack&hellip;and a general expectation that the rest of the world has woken up to the beauty and elegance that is Ruby &amp; Rails.</p>

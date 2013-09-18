@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: value | MVPs for just $5k.]]></title>
-  <link href="http://5kmvp.com//blog/categories/value/atom.xml" rel="self"/>
-  <link href="http://5kmvp.com//"/>
-  <updated>2013-09-18T05:30:27-05:00</updated>
-  <id>http://5kmvp.com//</id>
+  <link href="http://5kmvp.com/blog/categories/value/atom.xml" rel="self"/>
+  <link href="http://5kmvp.com/"/>
+  <updated>2013-09-18T05:34:18-05:00</updated>
+  <id>http://5kmvp.com/</id>
   <author>
     <name><![CDATA[Marc Gayle]]></name>
     <email><![CDATA[newprojects@5KMVP.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Redefining MVP to Minimum Valuable Product]]></title>
-    <link href="http://5kmvp.com//blog/2013/09/17/redefining-mvp-minimum-valuable-product/"/>
+    <link href="http://5kmvp.com/blog/2013/09/17/redefining-mvp-minimum-valuable-product/"/>
     <updated>2013-09-17T03:12:00-05:00</updated>
-    <id>http://5kmvp.com//blog/2013/09/17/redefining-mvp-minimum-valuable-product</id>
+    <id>http://5kmvp.com/blog/2013/09/17/redefining-mvp-minimum-valuable-product</id>
     <content type="html"><![CDATA[<p>Given our experience working with many clients building MVPs, I have made a few observations about using the term &ndash; that lead me to think that a re-definition may be in order.</p>
 
 <h3>1st Observation: The term is too geeky</h3>
