@@ -3,7 +3,7 @@ layout: post
 title: "Analysis of Market Demand for Web Programming Languages"
 date: 2013-01-01 00:30
 comments: true
-categories: [programming, web development, market analysis, research]
+categories: programming web-development market-analysis research
 ---
     
   A few months ago, I got the idea that one way to get leads for remote freelance gigs was to scour Craigslist. So, after doing the manual work of 'crawling' through at least 100 job postings by hand, I wrote a Ruby script to do the heavy lifting and filtering for me.

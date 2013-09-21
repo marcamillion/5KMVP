@@ -3,7 +3,7 @@ layout: post
 title: "Redefining MVP to Minimum Valuable Product"
 date: 2013-09-17 03:12
 comments: true
-categories: value, value creation
+categories: value value-creation
 ---
 
 Given our experience working with many clients building MVPs, I have made a few observations about using the term - that lead me to think that a re-definition may be in order.
