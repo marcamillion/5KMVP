@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: creation | MVPs for just $5k.]]></title>
-  <link href="http://5kmvp.com/blog/categories/creation/atom.xml" rel="self"/>
+  <title><![CDATA[Category: value-creation | MVPs for just $5k.]]></title>
+  <link href="http://5kmvp.com/blog/categories/value-creation/atom.xml" rel="self"/>
   <link href="http://5kmvp.com/"/>
-  <updated>2013-09-20T06:10:45-05:00</updated>
+  <updated>2013-09-20T21:15:33-05:00</updated>
   <id>http://5kmvp.com/</id>
   <author>
     <name><![CDATA[Marc Gayle]]></name>

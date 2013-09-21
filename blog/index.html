@@ -158,7 +158,7 @@
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/creation/'>creation</a>, <a class='category' href='/blog/categories/value/'>value</a>, <a class='category' href='/blog/categories/value/'>value,</a>
+	<a class='category' href='/blog/categories/value/'>value</a>, <a class='category' href='/blog/categories/value-creation/'>value-creation</a>
 
 
 </div>
@@ -326,7 +326,7 @@
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/market-analysis/'>market analysis</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/research/'>research</a>, <a class='category' href='/blog/categories/web-development/'>web development</a>
+	<a class='category' href='/blog/categories/market-analysis/'>market-analysis</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/research/'>research</a>, <a class='category' href='/blog/categories/web-development/'>web-development</a>
 
 
 </div>
@@ -375,7 +375,7 @@
 
 <p>I was hooking up the email functionality where once a designer registers they get an email from the app. I use a rails gem (the equivalent of a plugin) called <a href="https://github.com/plataformatec/devise">devise</a> that makes it relatively easy to get up and running with an authentication solution. It handles users logging in and out. Registering, forgotten and resetting passwords. Locking and Unlocking an account (say if your application requires high security where you only allow X login attempts, then the account is locked). Plus a few other features. All in one plugin. All done to industry standard best practices &ndash; e.g. when a user forgets their password a unique link is sent where they can reset their password (i.e. a password is not sent via plaintext in email, that&rsquo;s very insecure). I get all of this functionality with very little effort (relatively speaking given the amount of functionality I get).</p>
 
-<p>So the first question I was faced with is, how do I address the designer? Do I say &ldquo;Hi John!&rdquo; ? But what if there is no first name, how do I fallback to their username (sexyjohn79) and then subsequently their email (<a href="mailto:sexyjohn79@email.com"><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#x73;&#x65;&#120;&#x79;&#106;&#111;&#104;&#110;&#x37;&#57;&#x40;&#101;&#109;&#97;&#x69;&#x6c;&#x2e;&#104;&#x6f;&#x74;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x73;&#x65;&#x78;&#121;&#106;&#111;&#x68;&#110;&#55;&#57;&#x40;&#x65;&#109;&#97;&#x69;&#108;&#46;&#104;&#x6f;&#x74;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></a>). That&rsquo;s &lsquo;business logic&rsquo;.</p>
+<p>So the first question I was faced with is, how do I address the designer? Do I say &ldquo;Hi John!&rdquo; ? But what if there is no first name, how do I fallback to their username (sexyjohn79) and then subsequently their email (<a href="mailto:sexyjohn79@email.com"><a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#115;&#101;&#120;&#121;&#x6a;&#111;&#104;&#110;&#55;&#57;&#x40;&#x65;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#104;&#x6f;&#x74;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#115;&#x65;&#x78;&#121;&#x6a;&#111;&#x68;&#110;&#55;&#x39;&#x40;&#101;&#109;&#97;&#x69;&#x6c;&#x2e;&#x68;&#111;&#116;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></a>). That&rsquo;s &lsquo;business logic&rsquo;.</p>
 
 <p><strong>How do you implement this business logic?</strong></p>
 
@@ -411,7 +411,7 @@ end
 &lt;p&gt; Thank you for registering with CompVersions.&lt;/p&gt;
 </code></pre>
 
-<p>The system says <em>Hi</em> and it executes the method <em>pretty_name</em> on the object <em>@resource</em> (<em>@resource</em> is an object that devise &ndash; from earlier &ndash; uses to refer to the current user account) and then returns the best value. So if the person&rsquo;s first name is John and it is there (i.e. the value is not NULL), the email will say <em>Hi John</em>. If there is no first name, it will say <em>Hi sexyjohn79</em>, where <em>sexyjohn79</em> is the username. If there is no username it will say <em>Hi <a href="mailto:sexyjohn79@email.hotmail.com"><a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#115;&#x65;&#x78;&#121;&#x6a;&#x6f;&#x68;&#110;&#x37;&#x39;&#x40;&#x65;&#x6d;&#97;&#105;&#108;&#x2e;&#104;&#111;&#116;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#115;&#101;&#120;&#121;&#x6a;&#x6f;&#x68;&#110;&#55;&#57;&#64;&#x65;&#109;&#97;&#105;&#x6c;&#46;&#104;&#111;&#x74;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></a></em>.</p>
+<p>The system says <em>Hi</em> and it executes the method <em>pretty_name</em> on the object <em>@resource</em> (<em>@resource</em> is an object that devise &ndash; from earlier &ndash; uses to refer to the current user account) and then returns the best value. So if the person&rsquo;s first name is John and it is there (i.e. the value is not NULL), the email will say <em>Hi John</em>. If there is no first name, it will say <em>Hi sexyjohn79</em>, where <em>sexyjohn79</em> is the username. If there is no username it will say <em>Hi <a href="mailto:sexyjohn79@email.hotmail.com"><a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#x73;&#x65;&#x78;&#121;&#x6a;&#x6f;&#x68;&#x6e;&#x37;&#x39;&#x40;&#101;&#x6d;&#97;&#105;&#x6c;&#x2e;&#104;&#x6f;&#116;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#115;&#x65;&#120;&#121;&#106;&#x6f;&#104;&#110;&#55;&#x39;&#x40;&#x65;&#109;&#97;&#x69;&#x6c;&#46;&#104;&#x6f;&#x74;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></a></em>.</p>
 
 <p>Here is an example of how the end product looks. All for the simple <em>Hi Marc</em>!</p>
 
@@ -460,7 +460,99 @@ end
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/rails/'>rails,</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/ruby-on-rails/'>ruby-on-rails,</a>
+	<a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/ruby-on-rails/'>ruby-on-rails</a>
+
+
+</div>
+	
+</div>
+
+    </article>
+  
+  
+    <article>
+      
+	<h2 class="title">
+		
+		<a href="/blog/2011/04/28/learning-ruby-on-rails/">
+		
+			Learning Ruby on Rails, CSS &amp; jQuery</a>
+	</h2>
+	<div class="entry-content">
+		<p>This is what my development environment is:</p>
+
+<ul>
+<li>13&#8221; Macbook Pro</li>
+<li><a href="http://macromates.com/">Textmate</a></li>
+<li>Textmate theme used by Ryan Bates on <a href="http://railscasts.com/about">Railscasts</a></li>
+<li><a href="http://git-scm.com/">Git</a></li>
+<li><a href="http://code.macournoyer.com/thin/">Thin</a> webserver</li>
+</ul>
+
+
+<p>For learning Rails I tried MANY things:</p>
+
+<ul>
+<li><a href="http://ruby.railstutorial.org/">Rails Tutorial</a> (this was a nice first primer, but given that I was learning Rails from scratch the issue I had with this tutorial is that it forces you to learn <a href="http://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a> &ndash; which for me was too much to learn everything at once. So I skipped over all the Test related stuff, and picked up what I could from everything else).</li>
+<li><a href="http://railsforzombies.org/">Rails for Zombies</a> &ndash; this is pretty awesome, because it doesn&rsquo;t involve Tests and takes you into the core of Rails 3 from day 1. I highly recommend this for anyone just starting Rails development.</li>
+<li>I tried a <a href="http://pragprog.com/titles/rails4/agile-web-development-with-rails">few</a> <a href="http://www.manning.com/katz/">ebooks</a> &ndash; and they are nice for rounding out your knowledge (once you have a solid understanding of the Rails way) and giving you an alternative perspective, but they never quite got me to fully understanding the way things worked.</li>
+<li>Asking Questions &ndash; mainly on <a href="http://www.stackoverflow.com">Stack Overflow</a> and #RubyOnRails on <a href="http://IRC.Freenode.net">IRC.Freenode.net</a>, port 6667. Every now and then, I will ask a <a href="http://stackoverflow.com/questions/4674668/how-does-the-controller-work-in-rails-3">question</a> and get a <a href="http://stackoverflow.com/questions/4674668/how-does-the-controller-work-in-rails-3/4678843#4678843">WONDERFUL answer</a>. Not only did his response clear up some stuff in my mind, but I have since used his advice about looking at other live examples.</li>
+<li>Bookmark and constantly refer to multiple git repositories. Specifically the Facebook competitor <a href="https://github.com/diaspora/diaspora">Diaspora</a>, <a href="https://github.com/maccman/saasy">Sassy</a>, and <a href="https://github.com/ricodigo/shapado">Shapado</a>.</li>
+<li><a href="http://www.railscasts.com">Railscasts</a> are awesome, once you have the basics under your belt. They really help you do specific stuff in Rails.</li>
+<li>Just diving in. <a href="http://prod-compv.heroku.com">CompVersions</a> was my first Rails app, and it has been a steep learning curve. Very steep. But I feel MUCH more fulfilled having done everything the hard way. That approach might not work for everyone else, but that&rsquo;s what has worked for me.</li>
+<li>I must confess that I never focused on <a href="http://tryruby.org/">learning Ruby</a>, but now that I have a certain foundation in Rails and a bit of Ruby under my belt, I do plan on learning more <a href="http://mislav.uniqpath.com/poignant-guide/book/chapter-2.html#section1">Ruby</a>.</li>
+<li>Ironically, writing about <a href="http://sixrevisions.com/web-development/why-making-web-apps-with-rails-is-awesome/">my learnings</a> also helps. There is something about explaining that forces you to understand what you are talking about.</li>
+</ul>
+
+
+<p>I also had to learn (and am still learning) jQuery which I pretty much took the same approach.</p>
+
+<ul>
+<li><a href="http://jqfundamentals.com/">jQuery Fundamentals</a> is an awesome first place to start to get your feet wet</li>
+<li>As is <a href="http://www.sitepoint.com/books/jquery1/">jQuery Novice to Ninja</a> from Sitepoint.</li>
+<li>Ask LOTS of questions on both #jQuery on <a href="http://irc.freenode.net">Freenode</a> &amp; <a href="http://www.stackoverflow.com">Stack Overflow</a>.</li>
+<li>Use <a href="http://www.jsfiddle.net">JSFiddle</a> to demonstrate your proofs of concept for both CSS &amp; jQuery.</li>
+<li><a href="http://www.sixrevisions.com">Six Revisions</a> has <a href="http://sixrevisions.com/category/javascript/">LOTS</a> of <a href="http://sixrevisions.com/javascript/10-awesome-techniques-and-examples-of-animation-with-jquery/">great</a> articles about both <a href="http://sixrevisions.com/javascript/getting-started-with-jquery/">jQuery</a> &amp; <a href="http://sixrevisions.com/javascript/6-advanced-javascript-techniques-you-should-know/">Javascript</a>.</li>
+<li>Watch as many <a href="http://www.youtube.com/watch?v=hQVTIJBZook">JS</a> <a href="http://www.youtube.com/watch?v=0LKDImgRfrg&amp;feature=relmfu">lectures</a> <a href="http://paulirish.com/2009/perf/">as</a> <a href="http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/">you</a> can.</li>
+<li><a href="http://ejohn.org/apps/learn/#">Learning Advanced Javascript</a> (By John Resig &ndash; creator of jQuery) is also something that I have bookmarked and never gotten around to doing, but looks awesome nonetheless and I should probably do so one day.</li>
+<li>Addy Osmani has a wonderful <a href="http://addyosmani.com/blog/essentialjsdesignpatternsupdate1/">book on Javascript patterns</a>, that is a must read.</li>
+<li>This blog post by Rey Bango, has a <a href="http://blog.reybango.com/2010/12/15/what-to-read-to-get-up-to-speed-in-javascript/">plethora of useful resources</a> on JS.</li>
+</ul>
+
+
+<p>Here are some additional CSS resources I used in my journey:
++ <a href="http://paulirish.com/2011/dom-html5-css3-performance/">HTML5 &amp; CSS3</a> lecture by Paul Irish (member of the jQuery core team)
++ A <a href="http://leaverou.me/ft2010/#intro">WONDERFUL CSS3 Practical Introduction</a>. It really is difficult to speak too highly of this presentation, except to say that you have to see it for yourself.
++ A very straight forward <a href="http://css.maxdesign.com.au/selectutorial/">tutorial on CSS selectors</a> and the way it works.
++ It&rsquo;s also very important for you to understand the <a href="http://css.maxdesign.com.au/selectutorial/document_tree.htm">Document Object Model (DOM) tre</a><a href="http://css.maxdesign.com.au/selectutorial/document_tree.htm">e</a>
++ Here is a <a href="http://css3buttons.michaelhenriksen.dk/">nice collection of CSS3 buttons</a>, made in the likeness of Github buttons.
++ Net Tuts has a nice rundown of <a href="http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/">30 CSS selectors</a> that are useful.</p>
+
+<p>I apologize if this is too much of a link dump, but people constantly ask me what resources I used to learn everything and I have not been able to point them to one comprehensive place for me. But now I can :)</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-04-28T20:21:00-05:00" pubdate data-updated="true">Apr 28<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/css/'>css</a>, <a class='category' href='/blog/categories/jquery/'>jQuery</a>, <a class='category' href='/blog/categories/learning-rails/'>learning-rails</a>, <a class='category' href='/blog/categories/learning-ruby/'>learning-ruby</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
 
 
 </div>
@@ -478,7 +570,8 @@ end
 <aside class="sidebar">
   
     <section>
-  <h1>Recent Posts</h1>
+	<br />
+  <h2>Recent Posts</h2>
   <ul id="recent_posts">
     
       <li class="post">
@@ -493,11 +586,16 @@ end
         <a href="/blog/2011/12/02/why-developing-with-rails-is-fun-and-pleasant/">Why Developing With Rails Is Fun and Pleasant</a>
       </li>
     
+      <li class="post">
+        <a href="/blog/2011/04/28/learning-ruby-on-rails/">Learning Ruby on Rails, CSS &amp; jQuery</a>
+      </li>
+    
   </ul>
 </section>
 
 <section>
-  <h1>GitHub Repos</h1>
+	<hr />
+  <h2>GitHub Repos</h2>
   <ul id="gh_repos">
     <li class="loading">Status updating&#8230;</li>
   </ul>
