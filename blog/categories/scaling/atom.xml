@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: scaling | MVPs for just $5k.]]></title>
+  <link href="http://5kmvp.com/blog/categories/scaling/atom.xml" rel="self"/>
+  <link href="http://5kmvp.com/"/>
+  <updated>2013-09-22T03:17:04-05:00</updated>
+  <id>http://5kmvp.com/</id>
+  <author>
+    <name><![CDATA[Marc Gayle]]></name>
+    <email><![CDATA[newprojects@5KMVP.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[5 things you need to know before worrying about scaling]]></title>
+    <link href="http://5kmvp.com/blog/2013/09/21/5-things-you-need-to-know-before-trying-to-scale/"/>
+    <updated>2013-09-21T15:23:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2013/09/21/5-things-you-need-to-know-before-trying-to-scale</id>
+    <content type="html"><![CDATA[<p>Scaling sounds very sexy. It&rsquo;s a problem that every technical entrepreneur wants to tackle. Largely because of the TechCrunch headlines and the sayings that &lsquo;growth cures all&rsquo;.</p>
+
+<p>Technically that&rsquo;s not true. If you don&rsquo;t have the fundamentals right, massive growth can kill you quicker than you can course correct.</p>
+
+<p>There are at least 5 things you want to be able to have right (and know cold) before you start thinking of scaling &ndash; or rather, before you raise money to scale.</p>
+
+<p><em>Disclaimer: All of these don&rsquo;t apply to every web service &ndash; e.g. Twitter, Pinterest, and other &lsquo;land grab&rsquo; type services that are a new form that hasn&rsquo;t been successfully monetized in the past, it may be better to just focus on a few and worry about the rest later. But without further ado&hellip;</em></p>
+
+<h4>1. Have you validated your product/service for a market that makes sense to pursue?</h4>
+
+<p>Have you found some subset of users that absolutely can&rsquo;t live without your product/service? Is your product generic enough  &ndash; that other users can find the same value as those that love you &ndash; so they can use it without much customization on your end? Are there more of the user-type that absolutely loves you? 10 60-year old women may love your service, but are you sure it isn&rsquo;t because your service fixes a problem that only occurs in their neighrborhood? In other words, can you find other 60-year old women that love your service in other neighborhoods throughout the state/country/world?</p>
+
+<p>If you can&rsquo;t answer affirmatively to the questions above, you have not validated your product for a market that makes sense to pursue.</p>
+
+<h4>2. Know your margins cold.</h4>
+
+<p>What are your gross margins? What are your net?</p>
+
+<p>You need to understand the difference between the cost of your inputs (Cost of Goods Sold) &ndash; which impact your gross margins (i.e. for every dollar of revenue you earn, you HAVE to incur these costs because they make up the product &ndash; unless you change ingredients, etc.) and the cost of your overhead (what are the costs that you incur as a result of selling and doing administration).</p>
+
+<p>This is very important, not only because any investor worth his salt will be thinking about these things, because your margins determine your business strategy. If your net margins are high, then your risk tolerance is high&hellip;if your net margins are low (and your cash cushion is low), then your risk tolerance is lower.</p>
+
+<p>Groupon is a wonderful example of why understanding these concepts are so important.</p>
+
+<p>Their Gross Margins, for their <a href="https://www.google.com/finance?q=NASDAQ%3AGRPN&fstype=ii&ei=3Zw-Urj5CZqKlwPecg">last fiscal year</a>, were a whopping 69%. Meaning, 69 cents of every dollar that comes in is Gross Profit.</p>
+
+<p>The problem is their SG&amp;A (Selling, General &amp; Administration Expenses). Last reported year, their Gross Profit was: $1.615B. Their SG&amp;A was $1.515B. So literally 93.8% of their gross profits go directly into supporting their sales. This figure has actually improved! Just 4 years ago, their SG&amp;A was 110% of their Gross Profits.</p>
+
+<p>Let us contrast that with say Google &ndash; which is similar to Groupon, in that they both have to support people that sell on their platform. Groupon is a bit different because they support both sides of the transaction (vendors &amp; buyers) &ndash; but to a large extent, so does AdSense.</p>
+
+<p>Last year, <a href="https://www.google.com/finance?q=NASDAQ%3AGOOG&fstype=ii&ei=h54-UonZGYPElgOtQw">Google&rsquo;s Gross Margin</a> was 59.13%. Their SG&amp;A was 32.8% of their Gross Profit.</p>
+
+<p>Now I am not saying that you should run away from a business that has low margins (or none in the case of GroupOn), but you should at least understand the numbers so you can know what challenges will come. In a low-margin business, you have a very slim <em>margin of error</em> (pun intended). If your sales dip 1 month, you could be out of business depending on how big the dip and how much cash you have in the bank. Whereas a large margin business has the ability to more easily accumulate cash to deal with those down months.</p>
+
+<h4>3. What is the best way to reach your customers?</h4>
+
+<p>Going back to those customers that love you from the first point, what is the best way to reach them? An organic SEO strategy, targeted at mom&rsquo;s that garden? A major billboard on Highway 90 for 6 months of the year? A monthly full page ad in a furniture &amp; wood monthly magazine, starting in Oregon? Guest blog writing for high-profile tech blogs? AdSense? Link Exchange? Banner ads on a premium design-only ad-network?</p>
+
+<p>Of all the ways you have experimented with, which has the best conversion rates and best bang for your buck?</p>
+
+<p>The reason you want to know this before you try to scale, is because it will increase the efficiency of how you deploy the capital you raise. Even if you don&rsquo;t raise, it will help keep you focused on just the channels that have shown to specifically work for you. Time &amp; attention are money.</p>
+
+<h4>4. What will it cost to acquire customers?</h4>
+
+<p>Once you figure out how to reach your customers, then you have to figure out how much it will cost you to get them and convert them. Can you just send them into a funnel, or will they require handholding by a physical person (see GroupOn above).</p>
+
+<p>If the <a href="http://en.wikipedia.org/wiki/Customer_lifetime_value">Lifetime Value</a> of your customer is lower than what it costed you to acquire them&hellip;.that&rsquo;s a losing proposition. You need to either figure out a way to improve their Lifetime Value or reduce the cost to acquire them.</p>
+
+<p>If you can&rsquo;t do either, then that customer is not worth it &ndash; because you can&rsquo;t build a sustainable business on that customer-type.</p>
+
+<h4>5. What is the lifetime value of each customer?</h4>
+
+<p>How much money will you make from each customer over the life of their account with you. The larger the difference between this value and CAC (Customer Acquisition Cost &ndash; point #4 above), the better.</p>
+
+<p>Evernote &amp; Dropbox are perfect examples of businesses that know the lifetime value of their customer &ndash; and they lifetime value is likely to be large. That&rsquo;s why Dropbox can give away so much storage, because they know that the more you depend on Dropbox it is the less likely that you will leave.</p>
+
+<p>Evernote is even more interesting, because it has a micro-mental-network effect, because the more stuff you store on Evernote, is the less likely you are to leave because the greater the hassle to take everything away and move to another service (especially when Evernote works so well). So they can more or less predict, based on how long you use the free product, when you will convert to paid and how long you will stay a paid customer.</p>
+
+<p><a href="http://techcrunch.com/2010/05/28/video-evernote-ceo-phil-libin-shares-revenue-stats-and-how-to-make-freemium-work/">This presentation by Phil Libin</a> (CEO of Evernote) is the perfect example of these metrics in use.</p>
+
+<hr />
+
+<p>So I hope that I have helped you to think through your approach to your product. You have a lot of work to do before you are ready to scale in a significant way. If you nail down these things, and all of your numbers look right (growth rates are up and to the left, margins are fat, etc.) you have a much higher probability of success while you scale.</p>
+]]></content>
+  </entry>
+  
+</feed>

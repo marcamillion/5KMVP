@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[MVPs for just $5k.]]></title>
+  <link href="http://5kmvp.com/atom.xml" rel="self"/>
+  <link href="http://5kmvp.com/"/>
+  <updated>2013-09-22T03:17:04-05:00</updated>
+  <id>http://5kmvp.com/</id>
+  <author>
+    <name><![CDATA[Marc Gayle]]></name>
+    <email><![CDATA[newprojects@5KMVP.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[5 things you need to know before worrying about scaling]]></title>
+    <link href="http://5kmvp.com/blog/2013/09/21/5-things-you-need-to-know-before-trying-to-scale/"/>
+    <updated>2013-09-21T15:23:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2013/09/21/5-things-you-need-to-know-before-trying-to-scale</id>
+    <content type="html"><![CDATA[<p>Scaling sounds very sexy. It&rsquo;s a problem that every technical entrepreneur wants to tackle. Largely because of the TechCrunch headlines and the sayings that &lsquo;growth cures all&rsquo;.</p>
+
+<p>Technically that&rsquo;s not true. If you don&rsquo;t have the fundamentals right, massive growth can kill you quicker than you can course correct.</p>
+
+<p>There are at least 5 things you want to be able to have right (and know cold) before you start thinking of scaling &ndash; or rather, before you raise money to scale.</p>
+
+<p><em>Disclaimer: All of these don&rsquo;t apply to every web service &ndash; e.g. Twitter, Pinterest, and other &lsquo;land grab&rsquo; type services that are a new form that hasn&rsquo;t been successfully monetized in the past, it may be better to just focus on a few and worry about the rest later. But without further ado&hellip;</em></p>
+
+<h4>1. Have you validated your product/service for a market that makes sense to pursue?</h4>
+
+<p>Have you found some subset of users that absolutely can&rsquo;t live without your product/service? Is your product generic enough  &ndash; that other users can find the same value as those that love you &ndash; so they can use it without much customization on your end? Are there more of the user-type that absolutely loves you? 10 60-year old women may love your service, but are you sure it isn&rsquo;t because your service fixes a problem that only occurs in their neighrborhood? In other words, can you find other 60-year old women that love your service in other neighborhoods throughout the state/country/world?</p>
+
+<p>If you can&rsquo;t answer affirmatively to the questions above, you have not validated your product for a market that makes sense to pursue.</p>
+
+<h4>2. Know your margins cold.</h4>
+
+<p>What are your gross margins? What are your net?</p>
+
+<p>You need to understand the difference between the cost of your inputs (Cost of Goods Sold) &ndash; which impact your gross margins (i.e. for every dollar of revenue you earn, you HAVE to incur these costs because they make up the product &ndash; unless you change ingredients, etc.) and the cost of your overhead (what are the costs that you incur as a result of selling and doing administration).</p>
+
+<p>This is very important, not only because any investor worth his salt will be thinking about these things, because your margins determine your business strategy. If your net margins are high, then your risk tolerance is high&hellip;if your net margins are low (and your cash cushion is low), then your risk tolerance is lower.</p>
+
+<p>Groupon is a wonderful example of why understanding these concepts are so important.</p>
+
+<p>Their Gross Margins, for their <a href="https://www.google.com/finance?q=NASDAQ%3AGRPN&fstype=ii&ei=3Zw-Urj5CZqKlwPecg">last fiscal year</a>, were a whopping 69%. Meaning, 69 cents of every dollar that comes in is Gross Profit.</p>
+
+<p>The problem is their SG&amp;A (Selling, General &amp; Administration Expenses). Last reported year, their Gross Profit was: $1.615B. Their SG&amp;A was $1.515B. So literally 93.8% of their gross profits go directly into supporting their sales. This figure has actually improved! Just 4 years ago, their SG&amp;A was 110% of their Gross Profits.</p>
+
+<p>Let us contrast that with say Google &ndash; which is similar to Groupon, in that they both have to support people that sell on their platform. Groupon is a bit different because they support both sides of the transaction (vendors &amp; buyers) &ndash; but to a large extent, so does AdSense.</p>
+
+<p>Last year, <a href="https://www.google.com/finance?q=NASDAQ%3AGOOG&fstype=ii&ei=h54-UonZGYPElgOtQw">Google&rsquo;s Gross Margin</a> was 59.13%. Their SG&amp;A was 32.8% of their Gross Profit.</p>
+
+<p>Now I am not saying that you should run away from a business that has low margins (or none in the case of GroupOn), but you should at least understand the numbers so you can know what challenges will come. In a low-margin business, you have a very slim <em>margin of error</em> (pun intended). If your sales dip 1 month, you could be out of business depending on how big the dip and how much cash you have in the bank. Whereas a large margin business has the ability to more easily accumulate cash to deal with those down months.</p>
+
+<h4>3. What is the best way to reach your customers?</h4>
+
+<p>Going back to those customers that love you from the first point, what is the best way to reach them? An organic SEO strategy, targeted at mom&rsquo;s that garden? A major billboard on Highway 90 for 6 months of the year? A monthly full page ad in a furniture &amp; wood monthly magazine, starting in Oregon? Guest blog writing for high-profile tech blogs? AdSense? Link Exchange? Banner ads on a premium design-only ad-network?</p>
+
+<p>Of all the ways you have experimented with, which has the best conversion rates and best bang for your buck?</p>
+
+<p>The reason you want to know this before you try to scale, is because it will increase the efficiency of how you deploy the capital you raise. Even if you don&rsquo;t raise, it will help keep you focused on just the channels that have shown to specifically work for you. Time &amp; attention are money.</p>
+
+<h4>4. What will it cost to acquire customers?</h4>
+
+<p>Once you figure out how to reach your customers, then you have to figure out how much it will cost you to get them and convert them. Can you just send them into a funnel, or will they require handholding by a physical person (see GroupOn above).</p>
+
+<p>If the <a href="http://en.wikipedia.org/wiki/Customer_lifetime_value">Lifetime Value</a> of your customer is lower than what it costed you to acquire them&hellip;.that&rsquo;s a losing proposition. You need to either figure out a way to improve their Lifetime Value or reduce the cost to acquire them.</p>
+
+<p>If you can&rsquo;t do either, then that customer is not worth it &ndash; because you can&rsquo;t build a sustainable business on that customer-type.</p>
+
+<h4>5. What is the lifetime value of each customer?</h4>
+
+<p>How much money will you make from each customer over the life of their account with you. The larger the difference between this value and CAC (Customer Acquisition Cost &ndash; point #4 above), the better.</p>
+
+<p>Evernote &amp; Dropbox are perfect examples of businesses that know the lifetime value of their customer &ndash; and they lifetime value is likely to be large. That&rsquo;s why Dropbox can give away so much storage, because they know that the more you depend on Dropbox it is the less likely that you will leave.</p>
+
+<p>Evernote is even more interesting, because it has a micro-mental-network effect, because the more stuff you store on Evernote, is the less likely you are to leave because the greater the hassle to take everything away and move to another service (especially when Evernote works so well). So they can more or less predict, based on how long you use the free product, when you will convert to paid and how long you will stay a paid customer.</p>
+
+<p><a href="http://techcrunch.com/2010/05/28/video-evernote-ceo-phil-libin-shares-revenue-stats-and-how-to-make-freemium-work/">This presentation by Phil Libin</a> (CEO of Evernote) is the perfect example of these metrics in use.</p>
+
+<hr />
+
+<p>So I hope that I have helped you to think through your approach to your product. You have a lot of work to do before you are ready to scale in a significant way. If you nail down these things, and all of your numbers look right (growth rates are up and to the left, margins are fat, etc.) you have a much higher probability of success while you scale.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redefining MVP to Minimum Valuable Product]]></title>
+    <link href="http://5kmvp.com/blog/2013/09/17/redefining-mvp-minimum-valuable-product/"/>
+    <updated>2013-09-17T03:12:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2013/09/17/redefining-mvp-minimum-valuable-product</id>
+    <content type="html"><![CDATA[<p>Given our experience working with many clients building MVPs, I have made a few observations about using the term &ndash; that lead me to think that a re-definition may be in order.</p>
+
+<h3>1st Observation: The term is too geeky</h3>
+
+<p>Due to the name of <a href="http://5kmvp.com">my business</a>, I can&rsquo;t run away from explaining what an MVP is. Anyone that I have to explain this to, I have to usually explain how a web product is different than a web site. Then I have to explain what a &lsquo;viable product&rsquo; is. Then I add the minimum portion of it &ndash; to emphasize the ability to get to market quickly to test the hypothesis re: the viability of the product. Viability sounds overly complicated and takes &lsquo;non-tech-startup&rsquo; people a significant amount of time to conceptually wrap their brains around determining whether a product is &lsquo;viable&rsquo;.</p>
+
+<p>I think that is largely because the &lsquo;viability&rsquo; in the MVP sense captures 2 concepts in 1. In order for a product to be viable, it must be valuable to someone first. Then some reasonable portion of the market must be willing to pay for it. If a product is valuable to literally 1 person, then for all intents and purposes it doesn&rsquo;t matter how much they are willing to pay for it &ndash; even $1B &ndash; it almost makes no rational sense to pursue it. A market size of 1 is basically no market &ndash; even if that 1 is the US Gov&rsquo;t (from my perspective anyway). So you have to grok the valuable part and the market size part &ndash; in 1 word.</p>
+
+<h3>2nd Observation: Seeking value is under emphasised</h3>
+
+<p>Due to the fact that &lsquo;Value&rsquo; is not in the name Minimum Viable Product, it is quite often overlooked by entrepreneurs. They know that to validate a hypothesis, they have to find some potential clients willing to pay for it. However, because they focus on just the exchange of money or even the &lsquo;minimum&rsquo; allure of creating a handful of features, they don&rsquo;t quite understand/hone-in on the &lsquo;value concept&rsquo; of what they are building. In other words, when you ask them&hellip;how does what you are creating add value for your potential customers &ndash; they can&rsquo;t say explicitly articulate what their value is.</p>
+
+<p>The average web developer doesn&rsquo;t fully understand (and can&rsquo;t quantify/articulate) their value.</p>
+
+<blockquote><p>For us, the value we provide is peace-of-mind by reducing your risk. We guarantee you a working MVP for a flat fee of $5K.</p></blockquote>
+
+<p>Determining true value is a particularly tricky exercise, because it is hard to articulate. Someone doesn&rsquo;t buy a fan because it has 3, 4, or 5 blades&hellip;.they buy a fan because it can keep them cool, at a significantly lower cost than an A/C and with much less stress/work than fanning themselves. If a fan has 1 million blades, but doesn&rsquo;t keep the subject cool&hellip;it won&rsquo;t last in the marketplace &ndash; unless there is some other magic that provides some imputed value that the creator didn&rsquo;t anticipate (e.g. perhaps the cost of the fan is less than the value of some of the components &ndash; <a href="http://www.quora.com/Business/Whats-the-shrewdest-smartest-maneuver-youve-ever-seen-in-business/answer/David-Fry?srid=FZe&share=1">hey&hellip;it has happened</a>).</p>
+
+<h3>3rd Observation: Without capturing value, the product will never be viable</h3>
+
+<p>If a product doesn&rsquo;t provide some value, then people will not use it over the long-term. People, especially early adopters, will try your product when they just hear about it&hellip;but if it doesn&rsquo;t provide some value to them&hellip;they will not use it consistently over time.</p>
+
+<p>The most important thing about surviving is not just providing value, but capturing some amount of the value you create. That&rsquo;s the only way to be viable over the long-term. Once you know how much value you create, then you can figure out a way to capture that value.</p>
+
+<h3>4th Observation: You need to figure out your &lsquo;Value Delta&rsquo;</h3>
+
+<blockquote><p>Value Delta = The Amount of Value You Create &ndash; The Amount of  Value You Charge</p>
+
+<p>Value Surplus = A positive Value Delta</p>
+
+<p>Value Deficit = A negative Value Delta</p></blockquote>
+
+<p>If you create a product that on average makes your best customer segment $1M+/year each, you are doing them a MAJOR disservice by charging just $120/year. The reason is that your incentives are misaligned. In order for you to be sustainable you have to focus on getting many customers and building an organization around trying to optimize for acquiring multiple customers &ndash; whereas those customers that receive $1M+/year of value will likely want you to focus more on improving the product and providing support. If they are just paying you $120/year, you can&rsquo;t do that right off the bat &ndash; therefore you begin to erode your Value Delta.</p>
+
+<p>In this case, you and they, would be much better off if you charged them $120K/year. That would allow you to focus on improving the product and adding more value to your existing customers than chasing down every new customer.</p>
+
+<p>In a theoretical world, a rational customer should want to pay up to $999K/year for your product, because they would still be net-ahead. Now&hellip;I wouldn&rsquo;t advise that, obviously, because it gets harder to justify a small value-delta. The larger the value-delta, the more compelling your product offering&hellip;up to a point. So the trick is to balance that value-delta such that the value-surplus is compelling enough for the customer to want to use your product &ndash; and that you can build a sustainable business supporting that value-surplus around.</p>
+
+<p>You want to stay away from Value Deficit territory &ndash; assuming you want to build something for the long-run.</p>
+
+<hr />
+
+<p>So, I think the industry needs to re-focus on the value creation portion of an MVP &ndash; because that is the only thing that will get the product to product-market-fit. Re-defining the default term is just the first step. You would be surprised how difficult it is to get at the value being created by a product. It&rsquo;s not as straight forward as it sounds.</p>
+
+<p>I will be writing a few more posts on Value over the next few days, so stay tuned.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Analysis of Market Demand for Web Programming Languages]]></title>
+    <link href="http://5kmvp.com/blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages/"/>
+    <updated>2013-01-01T00:30:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2013/01/01/analysis-of-market-demand-for-web-programming-languages</id>
+    <content type="html"><![CDATA[<p>  A few months ago, I got the idea that one way to get leads for remote freelance gigs was to scour Craigslist. So, after doing the manual work of &lsquo;crawling&rsquo; through at least 100 job postings by hand, I wrote a Ruby script to do the heavy lifting and filtering for me.</p>
+
+<p>  Once I started looking through the data, some interesting things started jumping out at me. Even though I don&rsquo;t actually live in the Valley (I live in Jamaica), I consume a lot of the news, blog posts and articles that come from the Valley. Suffice it to say, I am affected by the &lsquo;Valley echo-chamber&rsquo;. One side effect of that is an obsession with Ruby and Rails as my development stack&hellip;and a general expectation that the rest of the world has woken up to the beauty and elegance that is Ruby &amp; Rails.</p>
+
+<p>Alas, much to my surprise, that is not the case.</p>
+
+<p>Before diving into the data, let me explain exactly what this script does. Throughout Craigslist, there are two URL subpaths that tend to have the majority of the web development freelance gigs &ndash; /cpg/ and /web/.</p>
+
+<p>So the script creates a list of all the cities on Craigslist (because CL doesn&rsquo;t provide a clean, RESTful API that allows you to get this info easily) and then simply adds /cpg/ and /web/ to the end of that URL.</p>
+
+<p>  Then, on each link it checks to see if the current link actually has gigs posted in that city. The reason for this is that whenever there is no gig posted in the current city, what CL does is shows gigs from &lsquo;Nearby cities&rsquo;. To prevent duplication, the script automagically checks for that and eliminates those cities that don&rsquo;t have &lsquo;uniquely posted&rsquo; gigs. However, it does not eliminate a gig that has the exact text and posted in two different cities &ndash; because, well&hellip;I hadn&rsquo;t gotten there yet.</p>
+
+<p>  Once the script has a list of &lsquo;valid&rsquo; cities with gigs posted, then it starts to parse each of the links on the first page of those cities (i.e. up to 100 links in each city &ndash; CL does pagination by the 100 links) for keywords that I specified. The upside to only using the last 100 links in each city is that those are most recent. The downside is that in active cities, the last 100 isn&rsquo;t always a good sample from the entire population.</p>
+
+<p>  For the Rails results, I have the following keywords: &ldquo;rails, (ruby on rails), (ruby on rails 3), (rails 3), (rails 2)&rdquo;.</p>
+
+<p>  For the Ruby results, I have the following keywords: &ldquo;ruby, (ruby 1.8.7), (ruby 1.9.2), (ruby 1.9.3), ruby187, ruby192, ruby193&rdquo;.</p>
+
+<p>  The searches are case-insensitive &ndash; so any link containing Ruby, rUbY or RUBY will be found and included.</p>
+
+<p>  I am trying to capture every permutation that someone would use &lsquo;Rails&rsquo; in a web dev sense.</p>
+
+<p>  The downside to this &lsquo;basic&rsquo; approach is that for technologies that share similar keywords &ndash; e.g. &lsquo;Ruby on Rails&rsquo; (the framework) and Ruby (the language) &ndash; there will be overlap. So in this case, the Ruby results contain a ton of Rails links. i.e. Rails is basically a subset of Ruby.</p>
+
+<p>  I have done my best to fine-tune as many obviously spam-like CL posts out of the results, to really get at the legitimate posts.</p>
+
+<p> <strong>So it is fair to say, I think, that these results give us a relative proxy for what the marketplace for freelance programming gigs are actually looking for.</strong></p>
+
+<p>  Without further ado, here is the data and analysis.</p>
+
+<h4>General Stats</h4>
+
+<ul>
+<li>Cities Parsed: 720</li>
+<li>Total Gigs Found: 11,992 &ndash; 12,076 (footnote: scripts were run multiple times &ndash; for accuracy purposes &ndash; and the results returned were within this range)</li>
+<li>Time Script Takes to Run: 16 mins &ndash; 1.25 hrs</li>
+</ul>
+
+
+<h4>Languages Searched For</h4>
+
+<h5>Server-Side Languages &amp; Frameworks</h5>
+
+<ul>
+<li>C# (C-Sharp)</li>
+<li>CodeIgniter (PHP Framework)</li>
+<li>Django (Python Framework)</li>
+<li>Dot-Net</li>
+<li>Java</li>
+<li>Lisp</li>
+<li>Perl</li>
+<li>PHP</li>
+<li>Python</li>
+<li>Rails (Ruby Framework)</li>
+<li>Ruby</li>
+</ul>
+
+
+<h5>Client-Side Languages &amp; MVC Frameworks</h5>
+
+<p>Batch 1 &ndash; Languages</p>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+<li>Flash</li>
+</ul>
+
+
+<p>Batch 2 &ndash; Javascript MVC Frameworks</p>
+
+<ul>
+<li>Backbone.js</li>
+<li>Closure</li>
+<li>Ember.js</li>
+<li>Knockout.js</li>
+<li>Node.js</li>
+</ul>
+
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Server-Side-Language-Demand-Distribution-Graph.PNG" title="Server Side Language Demand Distribution Graph" ></p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Server-Side-Language-Demand-Distribution-Table.PNG" title="Server Side Language Demand Distribution Table" ></p>
+
+<p>On the server side, you can see that PHP wins by a long shot &ndash; with an almost <a href="http://www.youtube.com/watch?v=2O7K-8G2nwU">Bolt-like</a> performance, blowing everybody else out of the water. In fact, Ruby comes in at a paltry 5th place, Java coming in at 2nd and Dot-Net and C# coming in 3rd and 4th respectively.</p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Client-Side-Language-1-Demand-Distribution-Graph.PNG" title="Client Side Language 1 Demand Distribution Graph" ></p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Client-Side-Language-1-Demand-Distribution-Table.PNG" title="Client Side Language 1 Demand Distribution Table" ></p>
+
+<p>The most surprising result from the above is that Flash is still in demand &ndash; with all the &ldquo;Flash is dead&rdquo; rhetoric flying around the tech presses and blogs. Almost as much in demand as Javascript! Who woulda thunk?!?</p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Client-Side-Language-2-Demand-Distribution-Graph.PNG" title="Client Side Language 2 Demand Distribution Graph" ></p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Client-Side-Language-2-Demand-Distribution-Table.PNG" title="Client Side Language 2 Demand Distribution Table" ></p>
+
+<p>As for the Javascript frameworks, there is a silent battle going on with the multitudes of Javascript frameworks in existence and being released regularly. Here is where the unscientific-ness and impreciseness of this little exercise rears it&rsquo;s head again. Upon first glance of the results, the script says that Ember had an <a href="https://github.com/marcamillion/craigslist-ruby-crawler/blob/master/output/client-side/ember-gigs-Sep-28-2012.html#L2">output of 14 gigs</a>. However, because the keyword being searched for is &lsquo;ember&rsquo;, what happens is that Ruby finds any string with a substring of &lsquo;ember&rsquo;. So it had <a href="https://github.com/marcamillion/craigslist-ruby-crawler/blob/master/output/client-side/ember-gigs-Sep-28-2012.html">14 links</a> with &lsquo;Member&rsquo; and &lsquo;Membership&rsquo; in the link title. Not one with Ember.js or the Ember we were looking for. So after I manually reviewed the links, 0 results were returned. So the only two client-side MVC frameworks that the script found that is in-demand is Backbone and Node. Both, just barely.</p>
+
+<p>That being said, please take that with a grain of salt. Here is an alternative data point for you.</p>
+
+<p>I was told by one of the founders of <a href="http://grouptalent.com">GroupTalent</a> a few months ago, that the largest demand from clients they are seeing is in-fact for client-side JS frameworks. Even more so than server-side frameworks.</p>
+
+<p>Here is all the data altogether.</p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Language-Demand-Distribution-Graph.PNG" title="Language Demand Distribution Graph" ></p>
+
+<p><img src="http://5kmvp.com/images/posts/2013/01/TC-Language-Demand-Distribution-Table.PNG" title="Language Demand Distribution Table" ></p>
+
+<h3>Conclusion</h3>
+
+<p>This post is not meant to start a flamewar between the various camps. It is just an unscientific analysis of what the general marketplace (using Craigslist as a proxy for that marketplace) is looking for in web development talent.</p>
+
+<p>If you are considering learning one of these languages or frameworks, using what the marketplace requests is one factor to weigh in your decision making process. I wouldn&rsquo;t necessarily encourage that though, I certainly didn&rsquo;t.</p>
+
+<p>I chose Ruby &amp; Rails and love every minute of it. I would encourage you to try out various languages and see which you feel most comfortable with &ndash; because the vast majority of the time you spend in the language (assuming you really want to get better) will be non-billable stuff.</p>
+
+<p>In the <a href="http://5kmvp.com">web applications I build</a> for clients at 5KMVP, I use Ruby &amp; Rails because that&rsquo;s what I love. Clients have been satisfied and seem to love it too.</p>
+
+<p>If you want me to do an analysis of anything else &ndash; say Mobile vs Server languages or anything else, let me know in the comments or drop me a line on <a href="http://twitter.com/marcgayle">Twitter</a>.</p>
+
+<p>If you found this interesting, you may find a piece <a href="http://marcgayle.com/how-dropbox-is-printing-money">I wrote about Dropbox</a>, or a <a href="http://marcgayle.com/hackers-guide-to-cashflow-vs-profit">guide to understanding cashflow vs profit</a>, similarly interesting.</p>
+
+<p>You can find the Ruby script I created <a href="https://github.com/marcamillion/craigslist-ruby-crawler">on Github<a/>, along with some <a href="https://github.com/marcamillion/craigslist-ruby-crawler/tree/master/output">sample output files</a> that have a list of all the gigs generated for this article.</p>
+
+<p>Do look around and if you submit any pull requests for any improvements you may have, the Karma Fairy shall multiply your lineage ten-fold and your seed shall outnumber the celestial bodies.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why developing with Rails is fun and pleasant]]></title>
+    <link href="http://5kmvp.com/blog/2011/12/02/why-developing-with-rails-is-fun-and-pleasant/"/>
+    <updated>2011-12-02T23:37:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2011/12/02/why-developing-with-rails-is-fun-and-pleasant</id>
+    <content type="html"><![CDATA[<p><em>Disclaimer: This post is NOT for experienced Rails developers. It is for designers and non-developers thinking about diving into code and trying to decide which language/framework they should use.</em></p>
+
+<p><strong>Why did I learn Ruby &amp; Rails?</strong></p>
+
+<p>I am fairly new to Rails &amp; Ruby. I just started learning about 8 months ago when I started developing <a href="http://prod-compv.heroku.com/imdex.html">CompVersions</a>.</p>
+
+<p><a href="http://prod-compv.heroku.com/imdex.html">CompVersions</a> is a web application that allows designers to upload multiple versions of their designs &ndash; so that their clients can easily give them a thumbs up/down and add comments as necessary.</p>
+
+<p><img src="http://5kmvp.com/images/posts/2011/12/01-CompV-2-up-view-hover-menu.PNG" title="CompV 2-up view hover menu" ></p>
+
+<p>The idea for <a href="http://prod-compv.heroku.com/imdex.html">CompVersions</a> comes from my previous experiences working with multiple designers. I have, at various points in the past, worked on projects where I was either project lead or project manager and had to coordinate designs and feedback from multiple designers and multiple stakeholders.</p>
+
+<p>Getting &amp; forwarding emails with PDF files as attachments and notes specifying the line and page number in the PDF was not cutting it anymore. I tried <a href="http://www.basecamphq.com/">Basecamp</a>, and it wasn&rsquo;t designed for this problem, so it didn&rsquo;t work the way I needed it. So I decided to build my own solution.</p>
+
+<p><strong>Why write this post ?</strong></p>
+
+<p>A friend of mine (wassup <a href="http://twitter.com/StephenHector">Hector</a>) is doing a similar journey (i.e. building a web app/site while learning), but he is in Microsoft land (Dot Net, IIS, MSDN, the whole nine yards).</p>
+
+<p>I was explaining to him why I love Rails &amp; Ruby, and how it completely abstracts the pain of doing things like SQL queries (although, if you want to work with SQL you surely can).</p>
+
+<p>I was trying to find a real-world example of what I meant, but all I found were the regular &lsquo;build a blog in 15 minutes&rsquo; and tutorials and articles that take you through the entire app process. I didn&rsquo;t want that, so I started looking through my code. I realized that I have the perfect use case to highlight how wonderful it is to use Rails. He appreciated it, and understood what I meant, so I figured I would write it up and release for everybody else.</p>
+
+<p><strong>What is my example?</strong></p>
+
+<p>Rails is known for allowing the developer to focus more on the business logic of the application, rather than the technical behind the scenes stuff.</p>
+
+<p><strong>What does that even mean? Here is an example:</strong></p>
+
+<p>I was hooking up the email functionality where once a designer registers they get an email from the app. I use a rails gem (the equivalent of a plugin) called <a href="https://github.com/plataformatec/devise">devise</a> that makes it relatively easy to get up and running with an authentication solution. It handles users logging in and out. Registering, forgotten and resetting passwords. Locking and Unlocking an account (say if your application requires high security where you only allow X login attempts, then the account is locked). Plus a few other features. All in one plugin. All done to industry standard best practices &ndash; e.g. when a user forgets their password a unique link is sent where they can reset their password (i.e. a password is not sent via plaintext in email, that&rsquo;s very insecure). I get all of this functionality with very little effort (relatively speaking given the amount of functionality I get).</p>
+
+<p>So the first question I was faced with is, how do I address the designer? Do I say &ldquo;Hi John!&rdquo; ? But what if there is no first name, how do I fallback to their username (sexyjohn79) and then subsequently their email (<a href="mailto:sexyjohn79@email.com"><a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;&#58;&#115;&#x65;&#120;&#121;&#x6a;&#x6f;&#104;&#x6e;&#x37;&#x39;&#x40;&#101;&#109;&#x61;&#105;&#x6c;&#46;&#104;&#x6f;&#x74;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#115;&#101;&#x78;&#x79;&#106;&#x6f;&#x68;&#x6e;&#55;&#57;&#64;&#101;&#x6d;&#x61;&#105;&#108;&#46;&#x68;&#x6f;&#116;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a></a>). That&rsquo;s &lsquo;business logic&rsquo;.</p>
+
+<p><strong>How do you implement this business logic?</strong></p>
+
+<p>The registration form for <a href="http://www.compversions.com/">CompVersions</a> has First &amp; Last Names, Usernames &amp; Email addresses. A user can login with both their username and email address. But I haven&rsquo;t decided whether or not I am going to let first &amp; last names be mandatory. Most likely will, but I wanted to implement it to gracefully handle the situations when it doesn&rsquo;t have one or the others.</p>
+
+<p>Rails uses what is called an MVC structure. <a href="http://blog.elliottheis.com/post/3461828705/explanation-of-mvc-ruby-on-rails">Model, View, Controller</a>. Rails encourages you to put all of your business logic in the &lsquo;Model&rsquo; portion of your app.</p>
+
+<p><strong>Show me some code, damnit!</strong></p>
+
+<p>In my User model (which is where Rails handles all the business logic related to the &lsquo;Users&rsquo; of the app), I have a method called <em>pretty_name</em> that handles this option. This is how my <em>pretty_name</em> method looks:</p>
+
+<pre><code>def pretty_name
+    f_name || username || email
+end
+</code></pre>
+
+<p>Please explain that code to me</p>
+
+<p>To break it down for my non-developer friends out there:</p>
+
+<p>Line 1 is the definition of the method. The method is what I will call to &lsquo;execute/invoke&rsquo; this block of code. This will become clearer shortly.</p>
+
+<p>Line 2 basically says &ldquo;If the value <em>f_name</em> exists, return that value&rdquo; &ndash; i.e. if there is a first name (or if the first name is NOT null) return the first name. Then it moves on to say &ldquo;&hellip;OR ( || = OR ), if that doesn&rsquo;t exist check to see if a <em>username</em> exists. If it does, return that value&hellip;&rdquo; and continues to &ldquo;&hellip;OR if no <em>f_name</em> and <em>username</em> exist, return the <em>email_address</em>&rdquo;. The assumption here is that a username MUST exist because the user will be getting this message in their email. Ruby executes left-to-right.</p>
+
+<p>Line 3 ends this method</p>
+
+<p>That&rsquo;s it. That&rsquo;s the business logic.</p>
+
+<p>Then, in my template for the actual email (i.e. the &lsquo;View&rsquo; from the MVC), this is what the first few lines look like:</p>
+
+<pre><code>&lt;p&gt;Hi &lt;%= @resource.pretty_name %&gt;&lt;/p&gt;
+
+&lt;p&gt; Thank you for registering with CompVersions.&lt;/p&gt;
+</code></pre>
+
+<p>The system says <em>Hi</em> and it executes the method <em>pretty_name</em> on the object <em>@resource</em> (<em>@resource</em> is an object that devise &ndash; from earlier &ndash; uses to refer to the current user account) and then returns the best value. So if the person&rsquo;s first name is John and it is there (i.e. the value is not NULL), the email will say <em>Hi John</em>. If there is no first name, it will say <em>Hi sexyjohn79</em>, where <em>sexyjohn79</em> is the username. If there is no username it will say <em>Hi <a href="mailto:sexyjohn79@email.hotmail.com"><a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#x73;&#101;&#x78;&#121;&#x6a;&#x6f;&#104;&#x6e;&#x37;&#x39;&#x40;&#x65;&#109;&#97;&#105;&#108;&#x2e;&#104;&#111;&#116;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#109;">&#x73;&#101;&#120;&#x79;&#106;&#111;&#x68;&#x6e;&#x37;&#57;&#64;&#101;&#x6d;&#97;&#x69;&#x6c;&#46;&#x68;&#111;&#116;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></a></em>.</p>
+
+<p>Here is an example of how the end product looks. All for the simple <em>Hi Marc</em>!</p>
+
+<p><img src="http://5kmvp.com/images/posts/2011/12/02-finished-email.PNG"></p>
+
+<p><strong>So is Rails really a walk in the park, for non-developers?</strong></p>
+
+<p>I don&rsquo;t want you to misunderstand what I am saying. I am not implying that in order to get from nothing to a full app with login, for a non-Rails developer it is easy and quick. It&rsquo;s not that easy. But as a general rule, the things you will be struggling with (once you get the basics down) are how the app will function &ndash; the business logic &ndash; rather than missing semi-colons and errant SQL queries.</p>
+
+<p>Like all languages and frameworks, it has its quirks. Rails has a set of conventions that make sense and force you to develop one way (many consider it &lsquo;the right way&rsquo;). There are some that it doesn&rsquo;t work for. It has worked for me, and makes total sense &ndash; based on what I have seen so far.</p>
+
+<p>I hope that helps encourage you to try Rails, or even consider it for your next project.</p>
+
+<p>There are many awesome tutorials out there, for starters I would use <a href="http://railsforzombies.org/">Rails for Zombies</a>. I am in no way affiliated with them, I just love their product.</p>
+
+<p>If you liked this, you should follow me on <a href="http://www.twitter.com/marcgayle">Twitter here</a>.</p>
+
+<hr />
+
+<p>Here are some more screenshots of CompVersions:</p>
+
+<p><img src="http://5kmvp.com/images/posts/2011/12/03-CompV-Designer-Dashboard.PNG">
+<img src="http://5kmvp.com/images/posts/2011/12/04-CompV-2-up-view.PNG">
+<img src="http://5kmvp.com/images/posts/2011/12/05-CompV-3-up-view.PNG">
+<img src="http://5kmvp.com/images/posts/2011/12/06-CompV-4-up-view.PNG"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Ruby on Rails, CSS &amp; jQuery]]></title>
+    <link href="http://5kmvp.com/blog/2011/04/28/learning-ruby-on-rails/"/>
+    <updated>2011-04-28T20:21:00-05:00</updated>
+    <id>http://5kmvp.com/blog/2011/04/28/learning-ruby-on-rails</id>
+    <content type="html"><![CDATA[<p>This is what my development environment is:</p>
+
+<ul>
+<li>13&#8221; Macbook Pro</li>
+<li><a href="http://macromates.com/">Textmate</a></li>
+<li>Textmate theme used by Ryan Bates on <a href="http://railscasts.com/about">Railscasts</a></li>
+<li><a href="http://git-scm.com/">Git</a></li>
+<li><a href="http://code.macournoyer.com/thin/">Thin</a> webserver</li>
+</ul>
+
+
+<p>For learning Rails I tried MANY things:</p>
+
+<ul>
+<li><a href="http://ruby.railstutorial.org/">Rails Tutorial</a> (this was a nice first primer, but given that I was learning Rails from scratch the issue I had with this tutorial is that it forces you to learn <a href="http://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a> &ndash; which for me was too much to learn everything at once. So I skipped over all the Test related stuff, and picked up what I could from everything else).</li>
+<li><a href="http://railsforzombies.org/">Rails for Zombies</a> &ndash; this is pretty awesome, because it doesn&rsquo;t involve Tests and takes you into the core of Rails 3 from day 1. I highly recommend this for anyone just starting Rails development.</li>
+<li>I tried a <a href="http://pragprog.com/titles/rails4/agile-web-development-with-rails">few</a> <a href="http://www.manning.com/katz/">ebooks</a> &ndash; and they are nice for rounding out your knowledge (once you have a solid understanding of the Rails way) and giving you an alternative perspective, but they never quite got me to fully understanding the way things worked.</li>
+<li>Asking Questions &ndash; mainly on <a href="http://www.stackoverflow.com">Stack Overflow</a> and #RubyOnRails on <a href="http://IRC.Freenode.net">IRC.Freenode.net</a>, port 6667. Every now and then, I will ask a <a href="http://stackoverflow.com/questions/4674668/how-does-the-controller-work-in-rails-3">question</a> and get a <a href="http://stackoverflow.com/questions/4674668/how-does-the-controller-work-in-rails-3/4678843#4678843">WONDERFUL answer</a>. Not only did his response clear up some stuff in my mind, but I have since used his advice about looking at other live examples.</li>
+<li>Bookmark and constantly refer to multiple git repositories. Specifically the Facebook competitor <a href="https://github.com/diaspora/diaspora">Diaspora</a>, <a href="https://github.com/maccman/saasy">Sassy</a>, and <a href="https://github.com/ricodigo/shapado">Shapado</a>.</li>
+<li><a href="http://www.railscasts.com">Railscasts</a> are awesome, once you have the basics under your belt. They really help you do specific stuff in Rails.</li>
+<li>Just diving in. <a href="http://prod-compv.heroku.com">CompVersions</a> was my first Rails app, and it has been a steep learning curve. Very steep. But I feel MUCH more fulfilled having done everything the hard way. That approach might not work for everyone else, but that&rsquo;s what has worked for me.</li>
+<li>I must confess that I never focused on <a href="http://tryruby.org/">learning Ruby</a>, but now that I have a certain foundation in Rails and a bit of Ruby under my belt, I do plan on learning more <a href="http://mislav.uniqpath.com/poignant-guide/book/chapter-2.html#section1">Ruby</a>.</li>
+<li>Ironically, writing about <a href="http://sixrevisions.com/web-development/why-making-web-apps-with-rails-is-awesome/">my learnings</a> also helps. There is something about explaining that forces you to understand what you are talking about.</li>
+</ul>
+
+
+<p>I also had to learn (and am still learning) jQuery which I pretty much took the same approach.</p>
+
+<ul>
+<li><a href="http://jqfundamentals.com/">jQuery Fundamentals</a> is an awesome first place to start to get your feet wet</li>
+<li>As is <a href="http://www.sitepoint.com/books/jquery1/">jQuery Novice to Ninja</a> from Sitepoint.</li>
+<li>Ask LOTS of questions on both #jQuery on <a href="http://irc.freenode.net">Freenode</a> &amp; <a href="http://www.stackoverflow.com">Stack Overflow</a>.</li>
+<li>Use <a href="http://www.jsfiddle.net">JSFiddle</a> to demonstrate your proofs of concept for both CSS &amp; jQuery.</li>
+<li><a href="http://www.sixrevisions.com">Six Revisions</a> has <a href="http://sixrevisions.com/category/javascript/">LOTS</a> of <a href="http://sixrevisions.com/javascript/10-awesome-techniques-and-examples-of-animation-with-jquery/">great</a> articles about both <a href="http://sixrevisions.com/javascript/getting-started-with-jquery/">jQuery</a> &amp; <a href="http://sixrevisions.com/javascript/6-advanced-javascript-techniques-you-should-know/">Javascript</a>.</li>
+<li>Watch as many <a href="http://www.youtube.com/watch?v=hQVTIJBZook">JS</a> <a href="http://www.youtube.com/watch?v=0LKDImgRfrg&amp;feature=relmfu">lectures</a> <a href="http://paulirish.com/2009/perf/">as</a> <a href="http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/">you</a> can.</li>
+<li><a href="http://ejohn.org/apps/learn/#">Learning Advanced Javascript</a> (By John Resig &ndash; creator of jQuery) is also something that I have bookmarked and never gotten around to doing, but looks awesome nonetheless and I should probably do so one day.</li>
+<li>Addy Osmani has a wonderful <a href="http://addyosmani.com/blog/essentialjsdesignpatternsupdate1/">book on Javascript patterns</a>, that is a must read.</li>
+<li>This blog post by Rey Bango, has a <a href="http://blog.reybango.com/2010/12/15/what-to-read-to-get-up-to-speed-in-javascript/">plethora of useful resources</a> on JS.</li>
+</ul>
+
+
+<p>Here are some additional CSS resources I used in my journey:
++ <a href="http://paulirish.com/2011/dom-html5-css3-performance/">HTML5 &amp; CSS3</a> lecture by Paul Irish (member of the jQuery core team)
++ A <a href="http://leaverou.me/ft2010/#intro">WONDERFUL CSS3 Practical Introduction</a>. It really is difficult to speak too highly of this presentation, except to say that you have to see it for yourself.
++ A very straight forward <a href="http://css.maxdesign.com.au/selectutorial/">tutorial on CSS selectors</a> and the way it works.
++ It&rsquo;s also very important for you to understand the <a href="http://css.maxdesign.com.au/selectutorial/document_tree.htm">Document Object Model (DOM) tre</a><a href="http://css.maxdesign.com.au/selectutorial/document_tree.htm">e</a>
++ Here is a <a href="http://css3buttons.michaelhenriksen.dk/">nice collection of CSS3 buttons</a>, made in the likeness of Github buttons.
++ Net Tuts has a nice rundown of <a href="http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/">30 CSS selectors</a> that are useful.</p>
+
+<p>I apologize if this is too much of a link dump, but people constantly ask me what resources I used to learn everything and I have not been able to point them to one comprehensive place for me. But now I can :)</p>
+]]></content>
+  </entry>
+  
+</feed>
